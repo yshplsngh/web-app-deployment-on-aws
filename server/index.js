@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/',(req,res)=>{
-    res.status(200).send("iam backend");
+    res.status(200).send("iam backend after changing");
 })
 app.use("/admin", adminRouter)
 app.use("/user", userRouter)
