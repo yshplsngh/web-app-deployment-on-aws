@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/',(req,res)=>{
-    res.status(200).send("hello sir STFU");
+    res.status(200).send("finally domain is here");
 })
 app.use("/admin", adminRouter)
 app.use("/user", userRouter)
